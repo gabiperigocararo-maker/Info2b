@@ -1,0 +1,107 @@
+<!-- ========================= index.html ======================== -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio Escolar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meu Portfólio</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre" class="secao">
+    <h2>Sobre mim</h2>
+    <p>Sou estudante do 1º ano do ensino médio, gosto de tecnologia e estou começando a aprender HTML e CSS.</p>
+  </section>
+
+  <section id="projetos" class="secao">
+    <h2>Projetos</h2>
+
+    <div class="card">
+      <h3>Projeto 1</h3>
+      <p>Criei uma página simples explicando o ciclo da água usando texto, imagens e cores suaves.</p>
+    </div>
+
+    <div class="card">
+      <h3>Projeto 2</h3>
+      <p>Desenvolvi um pequeno trabalho sobre figuras geométricas com exemplos e desenhos feitos em CSS.</p>
+    </div>
+  </section>
+
+  <section id="contato" class="secao">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Gabriela Perigo" required>
+      <input type="email" placeholder="ana@email.com" required>
+      <textarea placeholder="Olá! Gostaria de saber mais sobre seus projetos." required></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Portfólio Escolar — Nível iniciante</p>
+  </footer>
+</body>
+</html>
+
+<!-- ========================= style.css  ========================= -->
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+}
+header {
+  background: #4a6cf7;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.secao {
+  padding: 20px;
+  background: white;
+  margin: 15px;
+  border-radius: 8px;
+}
+.card {
+  background: #e8e8e8;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  padding: 10px;
+  width: 100%;
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #555;
+}
