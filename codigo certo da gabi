@@ -1,0 +1,121 @@
+<!-- ========================= index.html (NOVO E SIMPLES) ========================= -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio — Gabriela Perigo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Portfólio — Gabriela Perigo</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="sobre" class="secao">
+    <h2>Sobre mim</h2>
+    <p>Sou Gabriela Perigo, estudante do 1º ano do ensino médio e iniciante no mundo da programação. Estou aprendendo HTML e CSS para criar meus primeiros projetos.</p>
+  </section>
+
+  <section id="projetos" class="secao">
+    <h2>Projetos</h2>
+
+    <div class="card">
+      <h3>Projeto 1 — Ciclo da Água</h3>
+      <p>Criei uma página explicando o ciclo da água com imagens e texto simples voltado para trabalhos escolares.</p>
+    </div>
+
+    <div class="card">
+      <h3>Projeto 2 — Formas Geométricas</h3>
+      <p>Desenvolvi um mini-site com exemplos de figuras geométricas usando apenas CSS.</p>
+    </div>
+
+  </section>
+
+  <section id="contato" class="secao">
+    <h2>Contato</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem" required></textarea>
+      <button>Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Portfólio criado por Gabriela Perigo — 2025</p>
+  </footer>
+
+</body>
+</html>
+
+
+<!-- ========================= style.css (NOVO E SIMPLES) ========================= -->
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #4a6cf7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.secao {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  background-color: #e7e7e7;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+button {
+  width: 100%;
+  background-color: #4a6cf7;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #555;
+  font-size: 14px;
+}
